@@ -1,0 +1,3 @@
+module LawOfDemeterViolator
+  VERSION = "0.0.1"
+end
