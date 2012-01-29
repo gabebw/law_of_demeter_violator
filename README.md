@@ -1,6 +1,6 @@
 # Law Of Demeter Violator
 
-`user.name` is for sissies who think patterns are cool. You and me, we know that
+`user.name` is for jerks who think patterns are cool. You and me, we know that
 the Gang of Four were [communists](http://en.wikipedia.org/wiki/Gang_of_four).
 Let's do `user.name.name` instead.
 
