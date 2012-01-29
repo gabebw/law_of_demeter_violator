@@ -37,6 +37,10 @@ Unfortunately, it has to be at the end of the class definition.
 
     Violate(BadIdea)
 
+## Is it tested?
+
+Of course. I'm not a monster.
+
 ## Contributing
 
 1. Fork it
