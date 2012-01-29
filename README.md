@@ -22,7 +22,7 @@ Or install it yourself as:
 
 You have two options.
 
-One: include the `LawOfDemeterViolator` module in your class, at the end:
+1) include the `LawOfDemeterViolator` module in your class, at the end:
 
     class BadIdea
       def meth1
@@ -33,7 +33,7 @@ One: include the `LawOfDemeterViolator` module in your class, at the end:
 
 Unfortunately, it has to be at the end of the class definition.
 
-Or option 2: use the global `Violate` method:
+2) use the global `Violate` method:
 
     Violate(BadIdea)
 
