@@ -18,6 +18,8 @@ Or install it yourself as:
 
     $ gem install law_of_demeter_violator
 
+Finally, ask yourself why you installed this. Just have a long talk.
+
 ## Usage
 
 You have two options.
