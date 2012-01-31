@@ -35,10 +35,7 @@ describe LawOfDemeterViolator::Violator do
       end
     end
 
-    define_class("Child", Parent) do
-      def child_method
-      end
-    end
+    define_class("Child", Parent)
 
     violator = LawOfDemeterViolator::Violator.new(Child)
     violator.violate
