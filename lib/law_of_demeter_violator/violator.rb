@@ -28,6 +28,8 @@ module LawOfDemeterViolator
       end
     end
 
+    private
+
     def methods_to_violate
       @class_to_be_violated.instance_methods(false)
     end
