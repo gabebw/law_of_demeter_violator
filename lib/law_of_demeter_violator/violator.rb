@@ -13,7 +13,7 @@ module LawOfDemeterViolator
           # First, save the unviolated method.
           alias_method(unviolated_method_name, original_method_name)
 
-          # # Then, remove the unviolated method. It's still saved via the call to
+          # Then, remove the unviolated method. It's still saved via the call to
           # alias_method.
           remove_method(original_method_name)
 
